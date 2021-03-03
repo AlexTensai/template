@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>Categoryes Delete</title>
+{% endblock title %}
+
+{% block content %}
+    <p>Delete Categoryes:</p>
+
+    <form method="POST">
+        <input type="text" name="categoryId" placeholder="Input Id of the category">
+        <br><br>
+        <input type="submit" value="Send">
+    </form>
+{% endblock content %}
